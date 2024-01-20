@@ -3,10 +3,10 @@
 #### <center> Ascot Hills Park - Microforest Survivability Tracker </center>
 
 <p align="center">
-  <img src="./images/DataFormEntryScreen.PNG" alt="Data Form Entry Screen" class="medium-image">
+  <img src="./images/DataFormEntryScreen.PNG" alt="Data Form Entry Screen" width="55%">
 </p>
 <p align="center">
-  <img src="./images/QRCodeExample.png" alt="QR Code Example" class="medium-image">
+  <img src="./images/QRCodeExample.png" alt="QR Code Example" width="75%">
 </p>
 
 This React Native mobile app is currently in use by volunteers and researchers who are tracking the survivability of 400 microforest trees in Ascot Hills Park in Los Angeles. The app employs QR codes to facilitate the tracking process, enabling scaled sustainability research in the park.
