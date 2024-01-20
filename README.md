@@ -1,77 +1,70 @@
-## Prerequisites
+<!-- ABOUT THE PROJECT -->
+## About The Project
+#### <center> Ascot Hills Park - Microforest Survivability Tracker </center>
 
-- Yarn: https://classic.yarnpkg.com/lang/en/docs/install/
-
-## Quickstart
-
-Clone the repo, then run:
-
-```
-yarn
-npx expo start
-```
-
-Then, press `i` to run the app in the iOS Simulator.
-
-## Helpful Tips and Troubleshooting
-
-- How to run iOS Simulator from terminal: https://stackoverflow.com/a/35262865
-- UNable to verify Xcode and Simulator installation: https://github.com/expo/create-react-native-app/issues/74
-
-## My Universal React Project
-
-<p>
-  <!-- iOS -->
-  <a href="https://itunes.apple.com/app/apple-store/id982107779">
-    <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  </a>
-  <!-- Android -->
-  <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample">
-    <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  </a>
-  <!-- Web -->
-  <a href="https://docs.expo.dev/workflow/web/">
-    <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-  </a>
+<p align="center">
+  <img src="./images/DataFormEntryScreen.PNG" alt="Data Form Entry Screen" width="200" height="200" style="border-radius: 50%;">
 </p>
 
-## 🚀 How to use
+This React Native mobile app is currently in use by volunteers and researchers who are tracking the survivability of 400 microforest trees in Ascot Hills Park in Los Angeles. The app employs QR codes to facilitate the tracking process, enabling scaled sustainability research in the park.
 
-- Install packages with `yarn` or `npm install`.
-  - If you have native iOS code run `npx pod-install`
-- Run `yarn start` or `npm run start` to start the bundler.
-- Open the project in a React runtime to try it:
-  - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
-  - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
-  - Web: Any web browser
 
-## Running/Modifying Native Code
+### Built With 
+[![React][React.js]][React-url]
+* Expo Go
+* React Native
+* Firebase
+* Javascript
 
-You can generate native iOS and Android projects from your Expo config file (**app.json**/ **app.config.js**) by runnning `npx expo prebuild`. These native projects can then be compiled and run via XCode and Android Studio.
+### Local Installation
 
-> 💡 Learn more about [native code in Expo](https://docs.expo.dev/workflow/customizing/)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/AaronFlore/Ascot-Hills-Park-Tracker.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Create .env for Firebase configs
 
-## Publishing
+4. Run locally
+   ```sh
+   npm run
+   ```
 
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.dev/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.dev/distribution/publishing-websites/).
+<!-- ROADMAP -->
+## Potential New Features
 
-## 📝 Notes
 
-- Learn more about [Universal React](https://docs.expo.dev/).
-- See what API and components are [available in the React runtimes](https://docs.expo.dev/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.dev/guides/).
-
-### Notes for species:
-QUAG = Coastal live oak
-QULO = Valley live oak
-SANI  = Elderberry
-JUCA = Southern California black walnut
-MALA = Laurel sumac
-HEAR = Toyon 
-RHIN = Lemonade berry 
-FRCA = Coffeeberry 
-BAPI = Coyote brush
-RHIL = Hollyleaf redberry
-RIAU = Golden currant
-RISP = Fuchsiaflower gooseberry
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
